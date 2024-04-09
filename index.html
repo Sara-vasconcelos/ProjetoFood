@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Style/stylebody.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Projeto FOODTECH</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo">foodtech</i>
+
+<ul id="nav_list">
+
+<li class="nav-item active">
+    <a href="#home">Início</a></li>
+
+<li class="nav-item">
+    <a href="#menu">Cardápio</a></li>
+
+<li class="nav-item">
+    <a href="#avaliacao">Avaliações</a></li>
+</ul>
+
+<button class="btn-default">Peça aqui</button>
+<button id="mobile-btn"> <i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+    <div id="mobile_menu">
+    <ul id="mobile_nav_list">
+
+    <li class="nav-item">
+    <a href="#home">Início</a></li>
+            
+    <li class="nav-item">
+    <a href="#menu">Cardápio</a></li>
+            
+    <li class="nav-item">
+    <a href="#avaliacao">Avaliações</a></li>
+    </ul>
+    <button class="btn-default">Peça aqui</button>
+
+
+    </div>
+    </header>
+    
+    <main id="content">
+
+    <section id="home">
+    <div class="shape"></div>
+
+<div id="cta">
+
+<h1 class="title">O sabor que vai até <span>você</span></h1>
+<p class="description">Desenvolvedora Front-end Jr apaixonada pelo desconhecido.</p>
+     
+<div id="cta_buttons">
+
+<a href="Currículo.pdf" class="btn-default" target="_blank" rel="noopener noreferrer">Ver cardápio</a>
+<a href="tel:+11972338400" id="phone_button"><!--Para discar o número , quando o usuário clicar em cima -->
+
+<button class="btn-default">
+    <i class="fa-solid fa-phone" ></i>
+</button>
+
+(11) 97233-8400
+
+</a>
+
+</div>
+
+<div class="social-media-buttons">
+    <a href="#">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+</div>
+
+</div>
+
+<div id="banner">
+<img src="imagens/burguer1-banner.avif" alt="Hamburguer com queijo,alface e tomate">
+</div>
+
+</section>
+
+<section id="menu">
+<h2 class="section-title">Cardápio</h2>
+<h3 class="section-subtitle">Meus  burguers Techs especiais</h3>
+
+<div id="dishes">
+
+    
+   
+    
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish2.PNG" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title"> HTML duplo</h3>
+            
+    
+         <span class="dish-description">2 carnes de 180g de muito código  , queijo duplo de semântica e molho da casa</span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$45,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+        
+    
+    </div>
+
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish2.PNG" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title">CSS duplo</h3>
+            
+    
+         <span class="dish-description">2 carnes de 180g de Flexbox , queijo duplo de criatividade e molho da casa</span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$45,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+        
+    
+    </div>
+
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish1.png" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title">JavaScript</h3>
+            
+    
+         <span class="dish-description">1 carnes de 200g funções, queijo duplo de loops e molho da casa </span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$35,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+        
+    
+    </div>
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish2.PNG" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title">Lógica de programação</h3>
+            
+    
+         <span class="dish-description">2 carnes de 200g de loop, queijo duplo de pensamento analítico  e molho da casa</span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$35,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+    
+    </div>
+
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish1.png" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title">AZ-900 - Azure</h3>
+            
+    
+         <span class="dish-description">2 carnes de 180g de nuvem , queijo duplo de componentes arquitetônicos e molho da casa</span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+           
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$30,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+    
+    </div>
+
+    <div class="dish">
+        <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+
+            <img src="imagens/dish4.PNG" alt="Hamburguer com 2 carnes e tomate" class="dish-img">
+        
+            <h3 class="dish-title">SQL</h3>
+            
+    
+         <span class="dish-description">2 carnes de 200g de tabelas , queijo duplo de dados e molho da casa</span>
+        
+         <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+
+            <span>(500+)</span>
+         </div>
+       
+          <div class="dish-price">
+            <h4>R$25,50</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+    
+    </div>
+
+    
+        
+  
+</div>
+
+
+</section>
+
+<section id="testimonials">
+    <img src="imagens/avaliacao2.avif" class="testimonials_image" alt="">
+    <div id="testimonials_content">
+        <h2 class="section-title">Depoimentos</h2>
+        <h3 class="section-subtitle">O que você precisa saber sobre mim</h3>
+
+        <div id="feedbacks">
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Estou evoluindo meus conhecimentos sobre React.js, Angular.js , Estrutura de dados , Nuvem(AWS e Azure) , Lógica de programação e SQL"
+                    </p>
+
+            </div>
+            </div>
+
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b>
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Utilizei pela primeira vez o JQuery para fazer esse site e estou aprimorando meus conhecimentos pelo mesmo"
+                    </p>
+
+            </div>
+            </div>
+
+
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b> 
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Sou apaixonada por  desenvolvimento porque eu posso e devo fazer a diferença"
+                    </p>
+
+            </div>
+            </div>
+
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b> 
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Estou evoluindo todos os dias o meu nível no JavaScript e busco sempre aprimorá-lo"
+                    </p>
+
+            </div>
+            </div>
+
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b> 
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Busco todos os dias ser melhor do que fui ontem , com isso , desenvolvo meu pensamento analítico , comunicação, qualidade e proatividade"
+                    </p>
+
+            </div>
+            </div>
+            <div class="feedback">
+                <img src="imagens/perfil-avatar-sara.png" class="feedback-avatar" alt="Foto de perfil de uma mulher sorrindo, com cabelos castanhos e cacheados, com vestido preto de bolinhas brancas ">
+            
+                <div class="feedback-content">
+                    <p> <b>Sara Vasconcelos</b> 
+                        <span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                    </p>
+
+                    <p>
+                        "Foco e determinação são comportamentos que aplico todos os dias para conseguir realizar meu sonho de ser desenvolvedora de Software "
+                    </p>
+
+            </div>
+            </div>
+        
+        </div>
+
+        <button class="btn-default linkedin"><!---colocar um link depois -->
+            
+            <a href="https://www.linkedin.com/in/sara-vasconcelos-409394270/" target="_blank" rel="noopener noreferrer">ver mais avaliações </a>
+        </button>
+       </a>
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <img src="imagens/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Sara Vasconcelos
+            </span>
+
+            
+<div class="social-media-buttons">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+</div>
+        </div>
+    </footer>
+
+
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
